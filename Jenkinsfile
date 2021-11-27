@@ -3,7 +3,7 @@ pipeline {
         stages {
             stage('Build') {
                 steps {
-                    sh ''rsync -av -e "ssh -o StrictHostKeyChecking=no -i /var/lib/jenkins/firstEc2.pem" /var/lib/jenkins/workspace/chatappDemo/ ubuntu@10.0.2.128:/home/ubuntu/new_chatapp
+                    sh ''rsync -av -e "ssh -o StrictHostKeyChecking=no -i /var/lib/jenkins/firstEc2.pem" /var/lib/jenkins/workspace/chatappPipeline/ ubuntu@10.0.2.128:/home/ubuntu/new_chatapp
                 }
             }
 
