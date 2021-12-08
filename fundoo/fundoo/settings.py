@@ -106,7 +106,7 @@ DATABASES = {
         'NAME': 'database_chatapp',
         'USER': 'mohsin',
         'PASSWORD': 'Md78678678',
-        'HOST': 'database-1.cq77zqtuswls.us-east-2.rds.amazonaws.com',
+        'HOST': 'database_containern',
         'PORT': '3306',
     }
 }
