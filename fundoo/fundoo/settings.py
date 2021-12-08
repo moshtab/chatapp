@@ -106,7 +106,7 @@ DATABASES = {
         'NAME': 'database_chatapp',
         'USER': 'mohsin',
         'PASSWORD': 'Md78678678',
-        'HOST': 'database_containern',
+        'HOST': 'database-service',
         'PORT': '3306',
     }
 }
